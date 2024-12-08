@@ -1,0 +1,254 @@
+{
+
+  "teams": {
+    "2021": [
+      {
+        "name": "John Smith",
+        "role": "Founding President",
+        "image": "/assets/team/1.jpg",
+        "socials": { "linkedin": "#", "twitter": "#" }
+      },
+      {
+        "name": "Emily Rodriguez",
+        "role": "Vice President",
+        "image": "/assets/team/2.jpg",
+        "socials": { "linkedin": "#", "twitter": "#" }
+      },
+      {
+        "name": "David Chen",
+        "role": "Technical Lead",
+        "image": "/assets/team/3.jpg",
+        "socials": { "linkedin": "#", "twitter": "#" }
+      },
+      {
+        "name": "Maria Garcia",
+        "role": "Events Coordinator",
+        "image": "/assets/team/4.jpg",
+        "socials": { "linkedin": "#", "twitter": "#" }
+      },
+      {
+        "name": "James Wilson",
+        "role": "Marketing Director",
+        "image": "/assets/team/5.jpg",
+        "socials": { "linkedin": "#", "twitter": "#" }
+      },
+      {
+        "name": "Sophia Lee",
+        "role": "Community Manager",
+        "image": "/assets/team/6.jpg",
+        "socials": { "linkedin": "#", "twitter": "#" }
+      },
+      {
+        "name": "Michael Brown",
+        "role": "Treasurer",
+        "image": "/assets/team/7.jpg",
+        "socials": { "linkedin": "#", "twitter": "#" }
+      },
+      {
+        "name": "Anna Kim",
+        "role": "Content Creator",
+        "image": "/assets/team/8.jpg",
+        "socials": { "linkedin": "#", "twitter": "#" }
+      },
+      {
+        "name": "Lucas Martinez",
+        "role": "Project Manager",
+        "image": "/assets/team/9.jpg",
+        "socials": { "linkedin": "#", "twitter": "#" }
+      },
+      {
+        "name": "Sarah Thompson",
+        "role": "Secretary",
+        "image": "/assets/team/10.jpg",
+        "socials": { "linkedin": "#", "twitter": "#" }
+      }
+    ],
+    "2022": [
+      {
+        "name": "Sarah Chen",
+        "role": "President",
+        "image": "/assets/team/11.jpg",
+        "socials": { "linkedin": "#", "twitter": "#" }
+      },
+      {
+        "name": "Alex Johnson",
+        "role": "Vice President",
+        "image": "/assets/team/12.jpg",
+        "socials": { "linkedin": "#", "twitter": "#" }
+      },
+      {
+        "name": "Emma Davis",
+        "role": "Technical Director",
+        "image": "/assets/team/13.jpg",
+        "socials": { "linkedin": "#", "twitter": "#" }
+      },
+      {
+        "name": "Ryan Patel",
+        "role": "Events Manager",
+        "image": "/assets/team/14.jpg",
+        "socials": { "linkedin": "#", "twitter": "#" }
+      },
+      {
+        "name": "Isabella Wong",
+        "role": "Marketing Lead",
+        "image": "/assets/team/15.jpg",
+        "socials": { "linkedin": "#", "twitter": "#" }
+      },
+      {
+        "name": "Daniel Kim",
+        "role": "Community Director",
+        "image": "/assets/team/16.jpg",
+        "socials": { "linkedin": "#", "twitter": "#" }
+      },
+      {
+        "name": "Olivia Taylor",
+        "role": "Finance Manager",
+        "image": "/assets/team/17.jpg",
+        "socials": { "linkedin": "#", "twitter": "#" }
+      },
+      {
+        "name": "William Zhang",
+        "role": "Content Manager",
+        "image": "/assets/team/18.jpg",
+        "socials": { "linkedin": "#", "twitter": "#" }
+      },
+      {
+        "name": "Sofia Hernandez",
+        "role": "Project Coordinator",
+        "image": "/assets/team/19.jpg",
+        "socials": { "linkedin": "#", "twitter": "#" }
+      },
+      {
+        "name": "Ethan Carter",
+        "role": "Administrative Lead",
+        "image": "/assets/team/20.jpg",
+        "socials": { "linkedin": "#", "twitter": "#" }
+      }
+    ],
+    "2023": [
+      {
+        "name": "Michael Park",
+        "role": "President",
+        "image": "/assets/team/21.jpg",
+        "socials": { "linkedin": "#", "twitter": "#" }
+      },
+      {
+        "name": "Rachel Liu",
+        "role": "Vice President",
+        "image": "/assets/team/22.jpg",
+        "socials": { "linkedin": "#", "twitter": "#" }
+      },
+      {
+        "name": "Thomas Anderson",
+        "role": "Tech Innovation Lead",
+        "image": "/assets/team/23.jpg",
+        "socials": { "linkedin": "#", "twitter": "#" }
+      },
+      {
+        "name": "Jessica Martinez",
+        "role": "Events Director",
+        "image": "/assets/team/24.jpg",
+        "socials": { "linkedin": "#", "twitter": "#" }
+      },
+      {
+        "name": "Kevin Nguyen",
+        "role": "Marketing Strategist",
+        "image": "/assets/team/25.jpg",
+        "socials": { "linkedin": "#", "twitter": "#" }
+      },
+      {
+        "name": "Amy White",
+        "role": "Community Engagement",
+        "image": "/assets/team/26.jpg",
+        "socials": { "linkedin": "#", "twitter": "#" }
+      },
+      {
+        "name": "Brian Lee",
+        "role": "Financial Director",
+        "image": "/assets/team/27.jpg",
+        "socials": { "linkedin": "#", "twitter": "#" }
+      },
+      {
+        "name": "Michelle Wang",
+        "role": "Content Director",
+        "image": "/assets/team/28.jpg",
+        "socials": { "linkedin": "#", "twitter": "#" }
+      },
+      {
+        "name": "Carlos Rodriguez",
+        "role": "Project Lead",
+        "image": "/assets/team/29.jpg",
+        "socials": { "linkedin": "#", "twitter": "#" }
+      },
+      {
+        "name": "Laura Bennett",
+        "role": "Operations Manager",
+        "image": "/assets/team/30.jpg",
+        "socials": { "linkedin": "#", "twitter": "#" }
+      }
+    ],
+    "2024": [
+      {
+        "name": "Emma Wilson",
+        "role": "President",
+        "image": "/assets/team/31.jpg",
+        "socials": { "linkedin": "#", "twitter": "#" }
+      },
+      {
+        "name": "Jason Chang",
+        "role": "Vice President",
+        "image": "/assets/team/32.jpg",
+        "socials": { "linkedin": "#", "twitter": "#" }
+      },
+      {
+        "name": "Sophia Peterson",
+        "role": "Innovation Director",
+        "image": "/assets/team/33.jpg",
+        "socials": { "linkedin": "#", "twitter": "#" }
+      },
+      {
+        "name": "Marcus Johnson",
+        "role": "Events Lead",
+        "image": "/assets/team/34.jpg",
+        "socials": { "linkedin": "#", "twitter": "#" }
+      },
+      {
+        "name": "Nina Patel",
+        "role": "Marketing Head",
+        "image": "/assets/team/35.jpg",
+        "socials": { "linkedin": "#", "twitter": "#" }
+      },
+      {
+        "name": "Christopher Lee",
+        "role": "Community Manager",
+        "image": "/assets/team/36.jpg",
+        "socials": { "linkedin": "#", "twitter": "#" }
+      },
+      {
+        "name": "Victoria Santos",
+        "role": "Finance Lead",
+        "image": "/assets/team/37.jpg",
+        "socials": { "linkedin": "#", "twitter": "#" }
+      },
+      {
+        "name": "Andrew Kim",
+        "role": "Content Strategy",
+        "image": "/assets/team/38.jpg",
+        "socials": { "linkedin": "#", "twitter": "#" }
+      },
+      {
+        "name": "Diana Torres",
+        "role": "Project Manager",
+        "image": "/assets/team/39.jpg",
+        "socials": { "linkedin": "#", "twitter": "#" }
+      },
+      {
+        "name": "Robert Chen",
+        "role": "Operations Director",
+        "image": "/assets/team/40.jpg",
+        "socials": { "linkedin": "#", "twitter": "#" }
+      }
+    ]
+    
+  }
+}

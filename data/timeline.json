@@ -1,0 +1,47 @@
+{
+    "timeline": [
+        {
+            "year": "2021-22",
+            "title": "The Beginning",
+            "description": "Founded with a vision to empower students",
+            "achievements": [
+                "Established the club with founding members",
+                "Hosted first cultural event",
+                "Volleyball Tournament",
+                "Article Writing Competition",
+                "Jasn-E-Pratibha"
+            ]
+        },
+        {
+            "year": "2022-23",
+            "title": "Growth & Innovation",
+            "description": "Expanded our reach and impact",
+            "achievements": [
+                "Membership grew to 500+ students",
+                "Initiated community service projects",
+                "Quiz Competition",
+                "Coding Competition",
+                "Photography Competition"
+            ]
+        },
+        {
+            "year": "2023-24",
+            "title": "Community Impact",
+            "description": "Focused on community engagement",
+            "achievements": [
+                "Expanded to 1000+ active members",
+                "Mega Quiz Competition",
+                "LAN Gaming Champion League"
+            ]
+        },
+        {
+            "year": "2024-25",
+            "title": "Digital Transformation",
+            "description": "Embracing technology and innovation",
+            "achievements": [
+                "Expanded to 1500+ active members",
+                "Developed a website for club activities"
+            ]
+        }
+    ]
+}

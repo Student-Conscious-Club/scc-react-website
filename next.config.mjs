@@ -1,4 +1,18 @@
+import withCSV from 'next-csv';
+
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  webpack: (config) => {
+    config.module.rules.push({
+      test: /\.csv$/,
+      loader: 'csv-loader',
+      options: {
+        dynamicTyping: true,
+        skipEmptyLines: true
+      }
+    });
+    return config;
+  }
+};
 
 export default nextConfig;

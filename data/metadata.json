@@ -1,0 +1,64 @@
+{
+    "pages": {
+        "home": {
+            "title": "Home - Student Conscious Club",
+            "description": "Welcome to the official website of the Student Conscious Club. Explore our mission, events, and activities designed to inspire and empower students.",
+            "keywords": [
+                "SCC",
+                "Student Conscious Club",
+                "Leadership",
+                "Social Responsibility",
+                "Student Activities"
+            ]
+        },
+        "about": {
+            "title": "About Us - Student Conscious Club",
+            "description": "Learn more about the Student Conscious Club, our vision, mission, and how we strive to empower students through leadership and awareness.",
+            "keywords": [
+                "About SCC",
+                "Student Leadership",
+                "Social Awareness",
+                "Empowerment"
+            ]
+        },
+        "teams_timeline": {
+            "title": "Teams Timeline - Student Conscious Club",
+            "description": "Explore the journey and achievements of our various teams through the years. Witness the legacy of leadership and collaboration.",
+            "keywords": [
+                "SCC Teams",
+                "Timeline",
+                "Achievements",
+                "Leadership"
+            ]
+        },
+        "team_year": {
+            "title": "Team by Year - Student Conscious Club",
+            "description": "Discover the dedicated teams of SCC over the years. Learn about the people who have contributed to our success.",
+            "keywords": [
+                "SCC Teams",
+                "Yearly Teams",
+                "Contributors",
+                "Success Stories"
+            ]
+        },
+        "event": {
+            "title": "Events - Student Conscious Club",
+            "description": "Check out our exciting lineup of events, activities, and competitions that help students grow and connect.",
+            "keywords": [
+                "SCC Events",
+                "Activities",
+                "Competitions",
+                "Student Growth"
+            ]
+        },
+        "event_id": {
+            "title": "Event Details - Student Conscious Club",
+            "description": "Get detailed information about our events, including dates, participants, and outcomes.",
+            "keywords": [
+                "Event Details",
+                "SCC Events",
+                "Event Information"
+            ]
+        }
+    }
+}

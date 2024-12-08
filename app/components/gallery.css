@@ -1,0 +1,14 @@
+/* Only keep Swiper-specific styles that can't be handled by Tailwind */
+.gallery-swiper .swiper-pagination {
+    bottom: 20px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 4px !important;
+}
+
+.gallery-swiper .swiper-pagination-bullet {
+    display: block !important;
+    opacity: 1 !important;
+}
+
