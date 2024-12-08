@@ -1,5 +1,3 @@
-import withCSV from 'next-csv';
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   webpack: (config) => {
