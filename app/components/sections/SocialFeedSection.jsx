@@ -8,7 +8,7 @@ const socialConfig = {
   instagram: "studentconsciousclub",
   facebook: "studentconsciousclub",
   youtube: "@studentconsciousclub",
-  linkedin: "gdg-scriet",
+  linkedin: "student-conscious-club",
 };
 
 const SocialCard = ({ platform, icon: Icon, delay, href, children }) => {

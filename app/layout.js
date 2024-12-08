@@ -16,6 +16,9 @@ const geistMono = localFont({
 });
 
 export const metadata = {
+  metadataBase: new URL(
+    'https://studentconsciousclub.in'
+  ),
   title: "Student Conscious Club - Empowering Student Leaders",
   description: "Join the Student Conscious Club and become part of a community dedicated to developing leadership skills, fostering innovation, and making positive impact on campus.",
   keywords: "student club, leadership, community, campus organization, student development",
