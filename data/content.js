@@ -86,7 +86,7 @@ export const aboutSections = [
         content: "SCC provides a platform where students can nurture and showcase their talents while building essential leadership qualities. From communication and creativity to decision-making and management, SCC ensures a well-rounded personality development for its members.",
         image: "/assets/about/whyscc.jpg",
         links: [
-            { text: "Join Us", href: "/join" },
+            { text: "Join Us", href: "/join-us" },
             { text: "View Events", href: "/events" }
         ]
     },

@@ -39,9 +39,6 @@ export default function NotFound() {
           <Link href="/" className="px-8 py-3 bg-primary-500 text-white rounded-lg hover:bg-primary-600 transition-colors duration-300">
             Back to Home
           </Link>
-          <Link href="/contact" className="px-8 py-3 border-2 border-secondary-500 text-secondary-500 rounded-lg hover:bg-secondary-500 hover:text-white transition-colors duration-300">
-            Contact Support
-          </Link>
         </div>
 
         <div className="pt-12 space-y-4">
@@ -49,8 +46,7 @@ export default function NotFound() {
           <div className="flex flex-wrap justify-center gap-4 text-body-small">
             <Link href="/about" className="text-primary-500 hover:text-primary-600">About Us</Link>
             <Link href="/events" className="text-primary-500 hover:text-primary-600">Events</Link>
-            <Link href="/resources" className="text-primary-500 hover:text-primary-600">Resources</Link>
-            <Link href="/faq" className="text-primary-500 hover:text-primary-600">FAQ</Link>
+            <Link href="/" className="text-primary-500 hover:text-primary-600">Home</Link>
           </div>
         </div>
       </motion.div>
