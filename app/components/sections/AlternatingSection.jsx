@@ -1,6 +1,37 @@
 'use client';
 import { motion } from 'framer-motion';
 
+const PersonCard = ({ person }) => (
+  <div className="sm:max-w-full sm:w-full flex flex-col text-center sm:text-start sm:flex-row items-center gap-4 rounded-xl">
+    <img
+      src={person.image}
+      alt={person.name}
+      className="rounded-xl aspect-square max-w-40 object-cover"
+    />
+    <div>
+      <p className="text-body-large text-secondary-800 font-bold">
+        {person.name}
+      </p>
+      <p className="text-body text-secondary-600 whitespace-pre-line">
+        {person.post}
+      </p>
+      {person.links && person.links.length > 0 && (
+        <div className="flex flex-wrap gap-2 mt-2">
+          {person.links.map((link, linkIdx) => (
+            <a
+              key={linkIdx}
+              href={link.href}
+              className="text-primary-600 hover:underline"
+            >
+              {link.text}
+            </a>
+          ))}
+        </div>
+      )}
+    </div>
+  </div>
+);
+
 export default function AlternatingSection({ sections = [] }) {
   if (!sections || sections.length === 0) {
     return null;
@@ -37,36 +68,9 @@ export default function AlternatingSection({ sections = [] }) {
                     ))}
                   </ul>
                 ) : section.type === 'person' ? (
-                  <div className="space-y-4">
+                  <div className="flex flex-col gap-8">
                     {section.content.map((person, idx) => (
-                          <div key={idx} className="flex sm:text-start sm:flex-row items-center gap-4">
-                        <img
-                          src={person.image}
-                          alt={person.name}
-                          className="rounded-xl aspect-square max-w-40 object-cover"
-                        />
-                        <div>
-                          <p className="text-body-large text-secondary-600 font-bold">
-                            {person.name}
-                          </p>
-                          <p className="text-body-large text-secondary-600 whitespace-pre-line">
-                            {person.post}
-                          </p>
-                          {person.links && person.links.length > 0 && (
-                            <div className="flex flex-wrap gap-2 mt-2">
-                              {person.links.map((link, linkIdx) => (
-                                <a
-                                  key={linkIdx}
-                                  href={link.href}
-                                  className="text-primary-600 hover:underline"
-                                >
-                                  {link.text}
-                                </a>
-                              ))}
-                            </div>
-                          )}
-                        </div>
-                      </div>
+                      <PersonCard key={idx} person={person} />
                     ))}
                   </div>
                 ) : (
