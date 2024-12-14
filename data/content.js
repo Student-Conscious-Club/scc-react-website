@@ -111,5 +111,24 @@ export const aboutSections = [
         links: [
             { text: "View Events", href: "/events" }
         ]
+    },
+    {
+        title: "Our Patrons",
+        type: "person",
+        content: [
+            {
+                name: "Sneh Vir Pundir",
+                post: "HOD - Political Science \n Digambar Jain College Baraut (Baghpat)",
+                image: "/assets/patrons/snehVir.jpeg",
+
+            },
+            {
+                name: "Anurag Pathak",
+                post: "IIT Indore Scholar",
+                image: "/assets/patrons/anurag.jpeg",
+
+            }
+        ],
+        image: "/assets/about/patrons.jpg"
     }
 ];

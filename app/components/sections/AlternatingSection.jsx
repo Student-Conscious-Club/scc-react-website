@@ -36,6 +36,39 @@ export default function AlternatingSection({ sections = [] }) {
                       </li>
                     ))}
                   </ul>
+                ) : section.type === 'person' ? (
+                  <div className="space-y-4">
+                    {section.content.map((person, idx) => (
+                          <div key={idx} className="flex sm:text-start sm:flex-row items-center gap-4">
+                        <img
+                          src={person.image}
+                          alt={person.name}
+                          className="rounded-xl aspect-square max-w-40 object-cover"
+                        />
+                        <div>
+                          <p className="text-body-large text-secondary-600 font-bold">
+                            {person.name}
+                          </p>
+                          <p className="text-body-large text-secondary-600 whitespace-pre-line">
+                            {person.post}
+                          </p>
+                          {person.links && person.links.length > 0 && (
+                            <div className="flex flex-wrap gap-2 mt-2">
+                              {person.links.map((link, linkIdx) => (
+                                <a
+                                  key={linkIdx}
+                                  href={link.href}
+                                  className="text-primary-600 hover:underline"
+                                >
+                                  {link.text}
+                                </a>
+                              ))}
+                            </div>
+                          )}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
                 ) : (
                   <p className="text-body-large text-secondary-600">
                     {section.content}
