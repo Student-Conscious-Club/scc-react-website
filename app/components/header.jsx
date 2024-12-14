@@ -97,7 +97,7 @@ const Header = () => {
           <div className="relative">
             <div className="absolute -inset-4 bg-secondary-500/10 rounded-2xl blur-lg" />
             <img 
-              src="/assets/header/home/13.jpg" 
+              src="/assets/header/scc main.jpeg" 
               alt="Students in Action"
               className="relative w-full h-auto rounded-2xl shadow-xl"
             />
