@@ -2,6 +2,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import NavBar from './components/navbar'
 import Footer from './components/footer'
+import FixedBottomMarquee from './components/FixedBottomMarquee'
 import NextTopLoader from 'nextjs-toploader';
 
 const geistSans = localFont({
@@ -41,9 +42,10 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased g-gradient-to-br from-warm-50 to-warm-100`}
       >
-        <NextTopLoader showSpinner={false} color={'#EF5A6F'}/>
+        <NextTopLoader showSpinner={false} color={'#EF5A6F'} />
         <NavBar />
         {children}
+        <FixedBottomMarquee />
         <Footer />
       </body>
     </html>
