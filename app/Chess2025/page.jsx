@@ -1,11 +1,11 @@
 export const metadata = {
-  title: 'Redirecting to Talent Fiesta 2025 Registration',
-  description: 'Redirecting to Talent Fiesta 2025 Registration Form'
+  title: 'Redirecting to Chess Competition 2025 Registration',
+  description: 'Redirecting to Chess Competition 2025 Registration Form'
 };
 
 export default async function Page() {
-  // Server-side redirect
-  const registrationUrl = 'https://forms.gle/rw38dYmkXCTF54HF7';
+
+  const registrationUrl = 'https://forms.gle/X5Jm2YAWj2Jydm4D8';
   
   return (
     <>

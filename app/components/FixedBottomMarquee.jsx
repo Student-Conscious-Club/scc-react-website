@@ -2,36 +2,36 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 
-const FixedBottomMarquee = () => {
+const FixedBottomMarquee = ({
+  linkTitle = "Register for Chess Competetion 2025",
+  linkHref = "https://forms.gle/X5Jm2YAWj2Jydm4D8",
+  linkCount = 15,
+  endDate = "2025-02-03T00:00:00+05:30",
+}) => {
   const [isVisible, setIsVisible] = useState(true);
   const [isAnimating, setIsAnimating] = useState(true);
 
   useEffect(() => {
     const checkTimeAndDate = () => {
-      const currentHour = new Date().getHours();
-      const endDate = new Date("2025-01-22T00:00:00+05:30"); // IST (UTC+5:30)
       const now = new Date();
-
-      // Show only if current time is between 9 AM and 9 PM AND before end date
-      setIsVisible(now < endDate);
+      setIsVisible(now < new Date(endDate));
     };
 
     checkTimeAndDate(); // Initial check
-    const interval = setInterval(checkTimeAndDate, 60000); // Check every minute
+    const interval = setInterval(checkTimeAndDate, 60000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [endDate]);
 
   if (!isVisible) return null;
 
-  // Create array of 15 items for smooth infinite scroll
-  const links = Array.from({ length: 15 }, (_, i) => (
+  const links = Array.from({ length: linkCount }, (_, i) => (
     <Link
       key={i}
-      href="https://forms.gle/rw38dYmkXCTF54HF7"
+      href={linkHref}
       target="_blank"
       className="mx-8 text-warm-100 hover:text-warm-200 transition-colors duration-300 flex items-center space-x-2">
-      <span className="text-body-large font-bold">Register for Talent Fiesta 2025</span>
+      <span className="text-body-large font-bold">{linkTitle}</span>
     </Link>
   ));
 
@@ -45,7 +45,6 @@ const FixedBottomMarquee = () => {
           onMouseEnter={() => setIsAnimating(false)}
           onMouseLeave={() => setIsAnimating(true)}>
           {links}
-          {/* Duplicate the links to ensure seamless loop */}
           {links}
         </div>
       </div>
